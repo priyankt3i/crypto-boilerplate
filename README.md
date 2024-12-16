@@ -20,13 +20,21 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
       cd cryptocurrency-app\n   
       ```
    2. Install dependencies:
-      ```sh\n   npm install\n   ```
+      ```sh
+         npm install
+      ```
    3. Set up Tailwind CSS:
-      ```sh\n   npx tailwindcss init\n   ```
+      ```sh
+         npx tailwindcss init
+      ```
    4. Run the development server:
-      ```sh\n   npm run dev\n   ```
+      ```sh
+         npm run dev
+      ```
    5. Start the backend server:
-      ```sh\n   node server.js\n   ```
+      ```sh
+         node server.js
+      ```
 
 ## API Endpoints
 - `GET /chain`: Retrieve the current blockchain.
