@@ -7,7 +7,7 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
 
 **Frontend**: Interacts with the blockchain via API endpoints, styled with Tailwind CSS.
 
-**REST API**: Manage the blockchain and transactions through HTTP requests.\n\n
+**REST API**: Manage the blockchain and transactions through HTTP requests.
 
 ## Prerequisites
     - Node.js (v14 or later)
@@ -17,7 +17,7 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
    1. Clone the repository:
       ```sh
       git clone https://github.com/your-repo/cryptocurrency-app.git
-      cd cryptocurrency-app\n   
+      cd cryptocurrency-app   
       ```
    2. Install dependencies:
       ```sh
