@@ -47,9 +47,10 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
    ```
 
 - `POST /mine`: Mine pending transactions. Payload format:  
-  ```json\n  {
+  ```json
+    {
      "rewardAddress": "Miner1"
-       }
+    }
   ```
   
 ## Frontend Usage
