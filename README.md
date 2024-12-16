@@ -43,7 +43,8 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
     {
     "sender": "Alice",
     "receiver": "Bob",
-    "amount": 10  }  
+    "amount": 10
+    }  
    ```
 
 - `POST /mine`: Mine pending transactions. Payload format:  
