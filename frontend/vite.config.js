@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',  // Ensure Vite looks at the root directory for the index.html file
+  root: './frontend',  // Set the root to the frontend folder
   build: {
-    outDir: 'dist',  // Specify the output directory for your build files (optional)
+    outDir: 'dist',  // Output directory for the build
   },
   server: {
-    open: true,  // Automatically open the app in the browser
+    open: true, // Automatically open the app in the browser
     proxy: {
-      '/api': 'http://localhost:5000', // Example: proxy backend requests to the server
+      '/api': 'http://localhost:5000', // Proxy setup for backend
     },
   },
 });

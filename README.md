@@ -58,10 +58,13 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
 ## File Structure
 ```
 project-root/
-|-- server.js            # Backend logic for the blockchain
-|-- vite.config.js       # Vite configuration for frontend proxy
-|-- src/
-|   |-- main.js          # Frontend JavaScript
-|   |-- index.css        # Tailwind CSS styling
-|-- tailwind.config.js   # Tailwind CSS configuration
+|--backend
+| |--server.js
+|--frontend
+| |-- vite.config.js       # Vite configuration for frontend proxy
+| |-- index.html           # index html file
+| |-- src/
+| |   |-- main.js          # Frontend JavaScript
+| |   |-- index.css        # Tailwind CSS styling
+| |-- tailwind.config.js   # Tailwind CSS configuration
 ```
