@@ -9,19 +9,27 @@ This project is a simple cryptocurrency application that uses Node.js for the ba
 
 **REST API**: Manage the blockchain and transactions through HTTP requests.\n\n
 
-## Prerequisites\n\n- Node.js (v14 or later)
+## Prerequisites
+    - Node.js (v14 or later)
     - npm or yarn
 
 ## Installation
-   1. Clone the repository:\n   ```sh
-   git clone https://github.com/your-repo/cryptocurrency-app.git
-      cd cryptocurrency-app\n   ```
-   2. Install dependencies:\n   ```sh\n   npm install\n   ```
-   3. Set up Tailwind CSS:\n   ```sh\n   npx tailwindcss init\n   ```
-   4. Run the development server:\n   ```sh\n   npm run dev\n   ```
-   5. Start the backend server:\n   ```sh\n   node server.js\n   ```
+   1. Clone the repository:
+      ```sh
+      git clone https://github.com/your-repo/cryptocurrency-app.git
+      cd cryptocurrency-app\n   
+      ```
+   2. Install dependencies:
+      ```sh\n   npm install\n   ```
+   3. Set up Tailwind CSS:
+      ```sh\n   npx tailwindcss init\n   ```
+   4. Run the development server:
+      ```sh\n   npm run dev\n   ```
+   5. Start the backend server:
+      ```sh\n   node server.js\n   ```
 
-## API Endpoints\n\n- `GET /chain`: Retrieve the current blockchain.
+## API Endpoints
+- `GET /chain`: Retrieve the current blockchain.
 - `POST /transactions`: Add a new transaction. Payload format:
   ```json
     {
