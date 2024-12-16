@@ -1,4 +1,4 @@
-# Cryptocurrency App
+# Boilerplate Code for a Cryptocurrency App
 
 This project is a simple cryptocurrency application that uses Node.js for the backend, Vite for the frontend, and Tailwind CSS for styling. It includes basic blockchain functionality with mining and transactions.
 
